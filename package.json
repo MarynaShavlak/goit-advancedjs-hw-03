@@ -1,0 +1,28 @@
+{
+  "name": "goit-advancedjs-hw-03",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/goit-advancedjs-hw-03/",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{html,css,js}\""
+  },
+  "devDependencies": {
+    "glob": "^11.0.0",
+    "postcss": "^8.4.41",
+    "postcss-sort-media-queries": "^5.2.0",
+    "prettier": "^3.9.9",
+    "vite": "^6.3.5"
+  },
+  "author": "Shavlak Maryna <shavlakmaryna@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "izitoast": "^1.4.0",
+    "simplelightbox": "^2.14.3",
+    "vite-plugin-full-reload": "^1.2.0",
+    "vite-plugin-html-inject": "^1.1.2"
+  }
+}
